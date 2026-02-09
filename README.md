@@ -2,7 +2,7 @@
 
 This repository contains the preliminary exploration for a Master's research project aimed at building robust automated inspection systems for industrial components. The project bridges signal processing, computer vision, and human-centric AI to address the challenges of "Harsh Industrial Environments."
 
-## 📌 Research Vision: The Two-Phase Framework
+## Research Vision: The Two-Phase Framework
 This study is structured into two strategic phases to align industrial maintenance needs with advanced computer vision research:
 
 * **Phase 1: Human-in-the-Loop & Gaze-Guided Attention**
@@ -12,7 +12,7 @@ This study is structured into two strategic phases to align industrial maintenan
 
 ---
 
-## 🛠️ Technical Workflow
+## Technical Workflow
 The following pipeline describes the transformation of industrial sensor data into robust visual embeddings.
 
 | Stage | Input/Data | Method | Purpose |
@@ -27,7 +27,7 @@ The following pipeline describes the transformation of industrial sensor data in
 
 ---
 
-## 📊 Preliminary Results Analysis
+## Preliminary Results Analysis
 A benchmark test was conducted using the **OB702.mat** sample (Outer Race Fault). This experiment evaluates how standard deep learning features react to simulated industrial interference.
 
 ### Experimental Sample: `OB702.mat`
@@ -43,7 +43,7 @@ This score indicates that while the model retains **84.33%** of the core fault i
 
 ---
 
-## 🚀 Future Roadmap & Master’s Research Goals
+## Future Roadmap & Master’s Research Goals
 The results identified in this exploration serve as the foundation for the upcoming Master's thesis at Tottori University. The research will evolve through:
 
 1.  **Primary Data Acquisition**: 
@@ -59,7 +59,7 @@ The results identified in this exploration serve as the foundation for the upcom
 
 ---
 
-## ⚙️ How to Reproduce
+## How to Reproduce
 1.  Clone this repository.
 2.  Place the HUST dataset in the data folder.
 3.  Install dependencies: 
