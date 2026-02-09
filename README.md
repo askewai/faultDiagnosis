@@ -34,7 +34,7 @@ A benchmark test was conducted using the **OB702.mat** sample (Outer Race Fault)
 
 ### Experimental Sample: `OB702.mat`
 * **Original State**: Clear frequency harmonics representing a structural bearing fault.
-* **Simulated Harsh State**: Introduced heavy sensor noise (Gaussian) and camera vibration (Motion Blur) to mimic factory conditions at companies like Yokogawa or Mitsubishi Power.
+* **Simulated Harsh State**: Introduced heavy sensor noise (Gaussian) and camera vibration (Motion Blur) to mimic factory conditions at companies.
 
 **Resulting Metric:**
 * **Cosine Similarity Score: 0.8433**
