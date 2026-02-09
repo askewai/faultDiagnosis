@@ -17,7 +17,7 @@ The following pipeline describes the transformation of industrial sensor data in
 
 | Stage | Input/Data | Method | Purpose |
 | :--- | :--- | :--- | :--- |
-| **Data Preparation** | 99 `.mat` files (HUST Dataset) | `scipy.io` Parsing | Extracting high-frequency vibration signals and dynamic sampling rates ($fs$). |
+| **Data Preparation** | 99 `.mat` files ![(HUST Dataset)](doi.org/10.17632/cbv7jyx4p9.3) | `scipy.io` Parsing | Extracting high-frequency vibration signals and dynamic sampling rates ($fs$). |
 | **Imaging** | 1D Raw Signals | **STFT (Short-Time Fourier Transform)** | Generating 2D Spectrograms as the primary visual input for the CV model. |
 | **Degradation** | Clean Spectrograms | **Albumentations Library** | Simulating "Harsh Environments" via Gaussian noise, motion blur, and data dropout. |
 | **Feature Analysis** | Visual Spectrograms | **Pre-trained ResNet18** | Extracting deep spatial-temporal features (embeddings) from the images. |
