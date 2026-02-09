@@ -15,7 +15,7 @@ from PIL import Image
 # ==========================================
 # 1. config PATH
 # ==========================================
-DATASET_PATH = r"D:\BEASISWA\MEXT\fujimoto tadahiro\hust bearing dataset\dataset"
+DATASET_PATH = r"..\hust bearing dataset\dataset"
 OUTPUT_DIR = "experiment_results"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
