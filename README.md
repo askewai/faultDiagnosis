@@ -55,7 +55,7 @@ The results identified in this exploration serve as the foundation for the upcom
     Utilizing the laboratory’s **Eye-Tracking infrastructure** to capture expert visual search patterns, integrating them as a "prior" to enhance anomaly localization.
     
 3.  **Self-Supervised Contrastive Learning**: 
-    Training the architecture to learn noise-invariant representations. By optimizing the model to recognize that a "noisy" image and a "clean" image of the same defect are identical in the feature space, we aim to push the Similarity Score closer to **1.0**.
+    Training the architecture to learn noise-invariant representations. By optimizing the model to recognize that a "noisy" image and a "clean" image of the same defect are identical in the feature space that aim to push the Similarity Score closer to **1.0**.
 
 
 
