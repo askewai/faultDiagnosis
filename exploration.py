@@ -23,7 +23,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # 2.  DATA PREP & IMAGING 
 # ==========================================
 def signal_to_spectrogram(file_path):
-    """Membaca file .mat dengan key 'data' dan 'fs'"""
+    """Read file .mat with key 'data' and 'fs'"""
     mat = scipy.io.loadmat(file_path)
     
     # vibration data (512000, 1) to 1D
@@ -49,7 +49,7 @@ def signal_to_spectrogram(file_path):
 # 3. DEGRADATION (HARSH ENVIRONMENT)
 # ==========================================
 def apply_industrial_noise(image):
-    """Simulasi gangguan lingkungan industri"""
+    """Industrial environmental disturbance simulation"""
     transform = A.Compose([
         A.GaussNoise(var_limit=(100, 500), p=0.8),      # noise sensor
         A.MotionBlur(blur_limit=7, p=0.6),             # vibration camera
@@ -88,7 +88,7 @@ extractor = FeatureExtractor()
 mat_files = glob.glob(os.path.join(DATASET_PATH, "*.mat"))
 
 if not mat_files:
-    print("Folder kosong atau path salah!")
+    print("Empty folder or incorrect path!")
 else:
     # Testing on the file (change [] inside mat_files)
     sample_file = mat_files[94]
