@@ -46,7 +46,7 @@ This score indicates that while the model retains **84.33%** of the core fault i
 ---
 
 ## Future Roadmap & Master’s Research Goals
-The results identified in this exploration serve as the foundation for the upcoming Master's thesis at Tottori University. The research will evolve through:
+The results identified in this exploration serve as the foundation for the upcoming Master's thesis at intended university. The research will evolve through:
 
 1.  **Primary Data Acquisition**: 
     Collecting real physical samples of defective bearings and capturing high-resolution macro imagery to simulate real-world QC (Quality Control) lines.
@@ -72,3 +72,4 @@ The results identified in this exploration serve as the foundation for the upcom
     ```
 
 ---
+
